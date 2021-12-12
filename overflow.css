@@ -1,0 +1,41 @@
+
+p{
+    padding: 10px;
+    text-indent: 55px;
+}
+p::selection{
+    background-color: rgb(69, 211, 133);
+}
+p::first-letter{
+    font-size: 30px;
+    color: rgb(34, 67, 214);
+    background-color: white;
+}
+p::first-line{
+    background-color: yellow;
+}
+#one::before{
+   content: '(This is Pseudo property p::before)  ';
+   color: rgb(4, 41, 5);
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+    
+}
+#one::after{
+    content: '(This is Pseudo property p::after)  ';
+    color: rgba(151, 16, 129, 0.979);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(175, 204, 12);
+    font-style: italic;
+    text-align: center;
+}
+
+::marker{
+    color: rgb(43, 4, 4);
+}
